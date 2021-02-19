@@ -1,6 +1,6 @@
 import serial
 
-ser = serial.serial('/dev/ttyACM0',9600,timeout=10)
+ser = serial.Serial('/dev/ttyACM0',9600,timeout=10)
 
 is_first = True
 while True:
